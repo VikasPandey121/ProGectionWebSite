@@ -2,6 +2,7 @@
 
 <html lang="en" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="theme-color" content="#ffffff">
@@ -26,6 +27,7 @@
 
 
     <!-- Documentation extras -->
+    <link rel="stylesheet" href="./assets/gagan.css">
     <link href="./progection_files/demo.css" rel="stylesheet" async="">
     <link href="./progection_files/font-awesome.min(1).css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" async="">
     <link href="./progection_files/footer.css" rel="stylesheet" async="">
@@ -70,7 +72,7 @@
             <div class="navbar-translate">
                 <a class="navbar-brand" href="#">
                     <span id="gdg-logo">
-                    <img src="./img/progection.png" style="max-height: 180%; margin-bottom: 25%; ">
+                    <img src="./img/progection.png" id="gaganHide" style="max-height: 180%; margin-bottom: 25%; ">
                 </span></a>
                 <button style="color:rgb(120,120,120)" class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -119,24 +121,16 @@
 
 
 
-    <div class="page-header header-filter" data-parallax="true" style="height: 400px; transform: translate3d(0px, 0px, 0px);">
-        <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
-            <div class="row" style="height: 100vh;">
-
-                <div class="col-md-4">&nbsp;</div>
-
-                <div class="col-md-4 col-half-offset" id="hometop-container">
-                        <p>&nbsp;</p>
-                    <img class="img-fluid" src="./img/logo.png" style="width:40%">
-
-                    <h2 class="tag_title">ProGection Technical Club</h2>
-                    <h4 class="tag_details"><b>Ch. Brahm Prakash Government Engineering College</b></h4>
-                    <p>&nbsp;</p>
-
-
-                </div>
-                <div class="col-md-8" style=" background-image: url(&#39;assets/img/bdimg.png&#39;); background-position: bottom; background-size: 100% auto;">&nbsp;</div>
-            </div>
+    <div class="gags-header">
+        <div class="gagsHeaderText">
+            <p>&nbsp;</p>
+        <img src="./img/progection.png">
+        
+        <h2 class="tag_title">Technical Club</h2>
+        <h4 class="tag_details"><b>Ch. Brahm Prakash Government Engineering College</b></h4>
+        <p>&nbsp;</p>
+        
+        
         </div>
     </div>
     <div class="main main-raised" style="margin-top: 0;">
@@ -638,7 +632,7 @@
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="./progection_files/firebase-app.js.download"></script>
-
+<script src="./assets/js/gagan.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="./progection_files/firebase-analytics.js.download"></script>

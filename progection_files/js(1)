@@ -1,4 +1,5 @@
 
+$("#gaganHide").hide(0); 
 // Copyright 2012 Google Inc. All rights reserved.
 (function(){
 
