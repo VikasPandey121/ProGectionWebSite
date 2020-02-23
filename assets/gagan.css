@@ -19,6 +19,11 @@ div.gags-header{
 .gagsHeaderText img{
     width: 80%;
 }
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 1000px;
+}
 @media only screen and (max-device-width: 800px) {
 div.gags-header{background-size: 100vw;}
 .gagsHeaderText{min-width: 100vw;
