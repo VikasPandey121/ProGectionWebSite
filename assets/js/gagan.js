@@ -61,7 +61,7 @@ var showEvents=[
   {
     title:false,
     imageUrl:'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png',
-    description:'CBPGEC and BITS, Pilani are hosting Mini-Apogee Tech fest on 12 March 2020tentative date). With events like: Hackathons, Coding Competition, Training sessions and much more! come join us to win exciting prizes ',
+    description:'CBPGEC and BITS, Pilani are hosting Mini-Apogee Tech fest on 12 March 2020(tentative date). With events like: Hackathons, Coding Competition, Training sessions and much more! come join us to win exciting prizes ',
     postedBy:'Gagan Sharma 01320703118',
     link:'https://bits-apogee.org/',
     buttonText:'more about Apogee',
